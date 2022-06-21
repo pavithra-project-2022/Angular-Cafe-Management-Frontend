@@ -11,7 +11,7 @@ import { GlobalConstants } from 'src/app/shared/global-constants';
   styleUrls: ['./manage-user.component.scss']
 })
 export class ManageUserComponent implements OnInit {
-  displayColumns:string[] = ['name','email','contactNumber','status'];
+  displayedColumns:string[] = ['name','email','contactNumber','status'];
   dataSource:any;
   responseMessage:any;
 
